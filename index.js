@@ -1,3 +1,5 @@
+'use strict';
+
 // the minimum multiplier for vessels radius. Multiply by VESSELS_BASE_RADIUS to get the final radius in px
 const VESSELS_MINIMUM_RADIUS_FACTOR = 0.25;
 
