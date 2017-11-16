@@ -56,9 +56,9 @@ module.exports = {
     return opacity;
   },
 
-  getZoomFactorOpacity: zoom => ((zoom - 1) ** 3.5) / 1000,
+  getZoomFactorOpacity: zoom => (Math.pow(zoom - 1, 3.5)) / 1000,
   getZoomFactorRadiusRenderingMode: zoom => ((zoom < VESSELS_HEATMAP_STYLE_ZOOM_THRESHOLD) ? 0.3 : 0.15),
-  getZoomFactorRadius: zoom => (zoom - 1) ** 2.5,
+  getZoomFactorRadius: zoom => Math.pow(zoom - 1, 2.5),
 
   /**
    * From a timestamp in ms returns a time with the precision set in Constants, offseted at the
