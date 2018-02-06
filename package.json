@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vizzuality/GlobalFishingWatch-convert.git"
+    "url": "git+https://github.com/GlobalFishingWatch/map-convert.git"
   },
   "author": "Vizzuality",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vizzuality/GlobalFishingWatch-convert/issues"
+    "url": "https://github.com/GlobalFishingWatch/map-convert/issues"
   },
-  "homepage": "https://github.com/Vizzuality/GlobalFishingWatch-convert#readme"
+  "homepage": "https://github.com/GlobalFishingWatch/map-convert#readme"
 }
