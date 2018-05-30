@@ -65,5 +65,11 @@ module.exports = {
    * beginning of available time (outerStart)
    * @param timestamp
    */
-  getOffsetedTimeAtPrecision: timestamp => Math.max(0, getTimeAtPrecision(timestamp) - TIMELINE_OVERALL_START_DATE_OFFSET)
+  getOffsetedTimeAtPrecision: timestamp => Math.max(0, getTimeAtPrecision(timestamp) - TIMELINE_OVERALL_START_DATE_OFFSET),
+
+  getTimestampFromOffsetedtTimeAtPrecision: timeIndex => {
+    const absoluteTimeAtPrecision = TIMELINE_OVERALL_START_DATE_OFFSET + timeIndex;
+    const timestamp = absoluteTimeAtPrecision * PLAYBACK_PRECISION;
+    return timestamp;
+  }
 }
