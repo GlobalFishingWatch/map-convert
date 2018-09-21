@@ -1,5 +1,5 @@
 {
-  "name": "globalfishingwatch-convert",
+  "name": "@globalfishingwatch/map-convert",
   "version": "1.0.0",
   "description": "Small conversion tools to be used by GlobalFishingWatch frontend and backend(s)",
   "main": "index.js",
